@@ -1,22 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+// import { Gif, Grid } from '@giphy/react-components'
+// import { GiphyFetch } from '@giphy/js-fetch-api'
+// import ResizeObserver from "react-resize-observer";
+import GifRender from './Components/GifRender';
+
+
+// const gf = new GiphyFetch(process.env.REACT_APP_GIPHY_API_KEY)
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="Giphy-app">        
+        <GifRender></GifRender>
+        
+        
       </header>
     </div>
   );

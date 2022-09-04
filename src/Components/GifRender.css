@@ -1,0 +1,35 @@
+.logo {
+    margin: 1%;
+    text-align: left;
+    color: white;
+    
+}
+.lastSearchesTitle {
+    margin: 1%;
+    font-size: larger;
+    text-align: left;
+    color: white;
+    
+}
+.lastSearchesContainer{
+display: flex;
+  justify-content: flex-start;
+  /* position: relative; */
+}
+
+.gifRenderContainer{
+  display: flex;
+  justify-content: flex-start;
+  margin: 1%;
+
+}
+
+.gifCard{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 10px;
+    color: #fff;
+    flex-wrap: wrap;
+  
+}
