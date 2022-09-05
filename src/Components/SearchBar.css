@@ -7,7 +7,12 @@
  @media only screen and (max-width: 600px) {
  .searchInputsContainer {
    flex-direction: column;
+   align-items: left;
   }
+.sliderContainer{
+    width: 300px;
+    margin-top: 3%;
+    margin-left: 0px;
 }
 }
 .searchInputs {
