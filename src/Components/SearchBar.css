@@ -4,6 +4,7 @@
 .searchInputsContainer {
     display: flex;
     align-items: center;
+}
  @media only screen and (max-width: 600px) {
  .searchInputsContainer {
    flex-direction: column;
@@ -13,7 +14,7 @@
     width: 300px;
     margin-top: 3%;
     margin-left: 0px;
-}
+    }
 }
 .searchInputs {
     margin-top: 3%;
