@@ -4,13 +4,18 @@
 .searchInputsContainer {
     display: flex;
     align-items: center;
+ @media only screen and (max-width: 600px) {
+  body {
+   flex-direction: column;
+  }
+}
 }
 .searchInputs {
     margin-top: 3%;
     display: flex;
     place-items: center;
     background-color: white;
-    width: 30%;
+    width: 350px;
     border-radius: 0px 10px 10px 0px;
 }
 .searchInputs button{
