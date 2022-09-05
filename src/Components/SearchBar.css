@@ -5,16 +5,11 @@
     display: flex;
     align-items: center;
 }
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
  .searchInputsContainer {
    flex-direction: column;
    align-items: left;
   }
-.sliderContainer{
-    width: 300px;
-    margin-top: 3%;
-    margin-left: 0px;
-    }
 }
 .searchInputs {
     margin-top: 3%;
@@ -23,6 +18,17 @@
     background-color: white;
     width: 350px;
     border-radius: 0px 10px 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+.searchInputs {
+    margin-top: 3%;
+    display: flex;
+    place-items: center;
+    background-color: white;
+    width: 300px;
+    border-radius: 0px 10px 10px 0px;
+}
 }
 .searchInputs button{
     border: 0;
@@ -38,6 +44,19 @@
     padding: 15px;
     height: 30px;
     width: 400px;
+}
+@media only screen and (max-width: 600px) {
+.search input{
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width: 250px;
+}
 }
 
 .searchIcon {
@@ -92,6 +111,13 @@ input:focus {
     margin-left: 50px;
     display: flex;
     flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+.sliderContainer{
+    width: 300px;
+    margin-top: 3%;
+    margin-left: 0px;
+    }
 }
 .sliderValueBox{
     margin: 0;
